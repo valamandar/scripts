@@ -1,0 +1,22 @@
+usecaseDiagram
+  actor Infirmier as "Infirmier"
+  actor Medecin as "Médecin"
+  actor Caissier as "Caissier"
+  actor Laborantin as "Laborantin"
+  actor Pharmacien as "Pharmacien"
+  actor Administrateur as "Administrateur"
+  actor Patient as "Patient"
+
+  Infirmier --> (Enregistrer un Patient)
+  Infirmier --> (Prendre un Rendez-vous)
+  Infirmier --> (Attribuer une Chambre)
+  Medecin --> (Consulter un Patient)
+  Medecin --> (Prescrire des Médicaments)
+  Medecin --> (Prescrire des Analyses)
+  Caissier --> (Valider un Rendez-vous)
+  Caissier --> (Gérer les Factures)
+  Laborantin --> (Enregistrer un Résultat d'Analyse)
+  Pharmacien --> (Gérer les Prescriptions)
+  Administrateur --> (Gérer les Utilisateurs)
+  Administrateur --> (Consulter les Rapports)
+  Patient --> (Consulter les Rendez-vous)
